@@ -6,7 +6,7 @@ function magicSum(arr1, arr2) {
         for (let j = i + 1; j < arr1.length; j++) {
             secondEl = arr1[j];
             if (firstEl + secondEl == arr2) {
-                console.log(arr1[i] + ' ' + arr1[j]);
+                console.log(`${firstEl} ${secondEl}`);
             }
         }
     }
