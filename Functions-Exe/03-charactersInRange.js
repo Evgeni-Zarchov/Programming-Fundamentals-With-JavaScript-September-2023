@@ -14,5 +14,5 @@ function charInRange(char1, char2) {
     console.log(result);
 }
 charInRange('a', 'd');
-charInRange('#',':');
-charInRange('C','#');
+charInRange('#', ':');
+charInRange('C', '#');
