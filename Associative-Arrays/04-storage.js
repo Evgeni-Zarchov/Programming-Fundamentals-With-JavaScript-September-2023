@@ -14,6 +14,7 @@ function shopStorage(arr) {
         }
     }
     let entries = Object.entries(storage);
+    console.log(entries);
 
     for (let [prodcuts, quantity] of entries) {
         console.log(`${prodcuts} -> ${quantity}`);
@@ -23,7 +24,7 @@ shopStorage(['tomatoes 10',
     'coffee 5',
     'olives 100',
     'coffee 40']);
-shopStorage(['apple 50',
-    'apple 61',
-    'coffee 115',
-    'coffee 40']);
+// shopStorage(['apple 50',
+//     'apple 61',
+//     'coffee 115',
+//     'coffee 40']);
