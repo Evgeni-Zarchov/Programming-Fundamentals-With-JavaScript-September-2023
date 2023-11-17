@@ -14,7 +14,7 @@ function mining(arr) {
     let entries = Object.entries(storage);
 
     for (let [products, quantity] of entries) {
-        console.log(`${products} –> ${quantity}`);
+        console.log(`${products} -> ${quantity}`);
     }
 }
 // mining(['Gold','155','Silver','10','Copper','17']);
